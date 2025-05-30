@@ -101,6 +101,7 @@ export class EncolamientoService implements OnModuleInit {
             temp = a + b;
             a = b;
             b = temp;
+            console.log(b);
         }
         return b;
     }
